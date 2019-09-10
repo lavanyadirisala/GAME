@@ -1,0 +1,60 @@
+#start {
+    position:absolute;
+    top:10px;
+    right:0px;
+}
+h1,h2 {
+    color:purple;
+}
+#click {
+    position:absolute;
+    top:10px;
+    left:10px;
+    z-index:10;
+}
+#click1 {
+    position:absolute;
+    top:40px;
+    left:10px;
+    z-index:10;
+}
+#click2 {
+    position:absolute;
+    top:70px;
+    left:10px;
+    z-index:10;
+}
+#score {
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:50px;
+    z-index:10;
+}
+body {
+    background-image: url("bg.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#title{
+    text-align: center;
+    text-decoration-style:double;
+    color: darksalmon;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+#bas {
+    position: absolute;
+    width: 95px;
+    bottom: 20px;
+}
+#basket {
+    width:85px;
+}
+#fallingobjects {
+    position:absolute;
+    width: 110%;
+    height:100%;
+}
